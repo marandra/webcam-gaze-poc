@@ -53,7 +53,7 @@ The pipeline goes from raw webcam frames to a single stable decision.
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-python eye_reading_detector.py
+python gaze_detector.py
 ```
 
 Press `q` to quit, `r` to reset the history buffer.
